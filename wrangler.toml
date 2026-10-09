@@ -10,5 +10,4 @@ run_worker_first = ["/api/*", "/webhooks/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "astraflow-leads"
-# Replace after creating the database: npx wrangler d1 create astraflow-leads
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "79fb1e54-4790-49e5-8a02-3a4a14442c5e"
