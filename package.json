@@ -1,0 +1,8 @@
+{
+  "name": "astraflow-automation-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AstraFlow AI automation website and workflow hub",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" }
+}

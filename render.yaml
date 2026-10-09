@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: astraflow-automation-hub
+    runtime: node
+    plan: starter
+    buildCommand: ""
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: ASTRAFLOW_API_KEY
+        generateValue: true
