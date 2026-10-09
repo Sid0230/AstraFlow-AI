@@ -22,8 +22,8 @@ document.getElementById('lead-form').addEventListener('submit', event => {
     .catch(() => { button.textContent = 'Could not send — please try again.'; button.disabled = false; });
 });
 
-const formatCurrency = value => new Intl.NumberFormat('en-IN', {
-  style: 'currency', currency: 'INR', maximumFractionDigits: 0
+const formatCurrency = value => new Intl.NumberFormat('en-US', {
+  style: 'currency', currency: 'USD', maximumFractionDigits: 0
 }).format(value);
 
 const calculator = () => {
